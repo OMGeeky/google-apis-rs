@@ -2,14 +2,14 @@
 // This file was generated automatically from 'src/generator/templates/api/lib.rs.mako'
 // DO NOT EDIT !
 
-//! This documentation was generated from *compute* crate version *5.0.4+20240218*, where *20240218* is the exact revision of the *compute:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.4*.
+//! This documentation was generated from *compute* crate version *5.0.5+20240407*, where *20240407* is the exact revision of the *compute:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.5*.
 //! 
 //! Everything else about the *compute* *v1* API can be found at the
 //! [official documentation site](https://cloud.google.com/compute/).
 //! The original source code is [on github](https://github.com/Byron/google-apis-rs/tree/main/gen/compute1).
 //! # Features
 //! 
-//! Handle the following *Resources* with ease from the central [hub](Compute) ... 
+//! Handle the following *Resources* with ease from the central [hub](Compute) ...
 //! 
 //! * [accelerator types](api::AcceleratorType)
 //!  * [*aggregated list*](api::AcceleratorTypeAggregatedListCall), [*get*](api::AcceleratorTypeGetCall) and [*list*](api::AcceleratorTypeListCall)
@@ -55,10 +55,14 @@
 //!  * [*get*](api::ImageFamilyViewGetCall)
 //! * [images](api::Image)
 //!  * [*delete*](api::ImageDeleteCall), [*deprecate*](api::ImageDeprecateCall), [*get*](api::ImageGetCall), [*get from family*](api::ImageGetFromFamilyCall), [*get iam policy*](api::ImageGetIamPolicyCall), [*insert*](api::ImageInsertCall), [*list*](api::ImageListCall), [*patch*](api::ImagePatchCall), [*set iam policy*](api::ImageSetIamPolicyCall), [*set labels*](api::ImageSetLabelCall) and [*test iam permissions*](api::ImageTestIamPermissionCall)
+//! * [instance group manager resize requests](api::InstanceGroupManagerResizeRequest)
+//!  * [*cancel*](api::InstanceGroupManagerResizeRequestCancelCall), [*delete*](api::InstanceGroupManagerResizeRequestDeleteCall), [*get*](api::InstanceGroupManagerResizeRequestGetCall), [*insert*](api::InstanceGroupManagerResizeRequestInsertCall) and [*list*](api::InstanceGroupManagerResizeRequestListCall)
 //! * [instance group managers](api::InstanceGroupManager)
 //!  * [*abandon instances*](api::InstanceGroupManagerAbandonInstanceCall), [*aggregated list*](api::InstanceGroupManagerAggregatedListCall), [*apply updates to instances*](api::InstanceGroupManagerApplyUpdatesToInstanceCall), [*create instances*](api::InstanceGroupManagerCreateInstanceCall), [*delete*](api::InstanceGroupManagerDeleteCall), [*delete instances*](api::InstanceGroupManagerDeleteInstanceCall), [*delete per instance configs*](api::InstanceGroupManagerDeletePerInstanceConfigCall), [*get*](api::InstanceGroupManagerGetCall), [*insert*](api::InstanceGroupManagerInsertCall), [*list*](api::InstanceGroupManagerListCall), [*list errors*](api::InstanceGroupManagerListErrorCall), [*list managed instances*](api::InstanceGroupManagerListManagedInstanceCall), [*list per instance configs*](api::InstanceGroupManagerListPerInstanceConfigCall), [*patch*](api::InstanceGroupManagerPatchCall), [*patch per instance configs*](api::InstanceGroupManagerPatchPerInstanceConfigCall), [*recreate instances*](api::InstanceGroupManagerRecreateInstanceCall), [*resize*](api::InstanceGroupManagerResizeCall), [*set instance template*](api::InstanceGroupManagerSetInstanceTemplateCall), [*set target pools*](api::InstanceGroupManagerSetTargetPoolCall) and [*update per instance configs*](api::InstanceGroupManagerUpdatePerInstanceConfigCall)
 //! * [instance groups](api::InstanceGroup)
 //!  * [*add instances*](api::InstanceGroupAddInstanceCall), [*aggregated list*](api::InstanceGroupAggregatedListCall), [*delete*](api::InstanceGroupDeleteCall), [*get*](api::InstanceGroupGetCall), [*insert*](api::InstanceGroupInsertCall), [*list*](api::InstanceGroupListCall), [*list instances*](api::InstanceGroupListInstanceCall), [*remove instances*](api::InstanceGroupRemoveInstanceCall) and [*set named ports*](api::InstanceGroupSetNamedPortCall)
+//! * instance settings
+//!  * [*get*](api::InstanceSettingGetCall) and [*patch*](api::InstanceSettingPatchCall)
 //! * [instance templates](api::InstanceTemplate)
 //!  * [*aggregated list*](api::InstanceTemplateAggregatedListCall), [*delete*](api::InstanceTemplateDeleteCall), [*get*](api::InstanceTemplateGetCall), [*get iam policy*](api::InstanceTemplateGetIamPolicyCall), [*insert*](api::InstanceTemplateInsertCall), [*list*](api::InstanceTemplateListCall), [*set iam policy*](api::InstanceTemplateSetIamPolicyCall) and [*test iam permissions*](api::InstanceTemplateTestIamPermissionCall)
 //! * [instances](api::Instance)
@@ -160,7 +164,7 @@
 //! * [resource policies](api::ResourcePolicy)
 //!  * [*aggregated list*](api::ResourcePolicyAggregatedListCall), [*delete*](api::ResourcePolicyDeleteCall), [*get*](api::ResourcePolicyGetCall), [*get iam policy*](api::ResourcePolicyGetIamPolicyCall), [*insert*](api::ResourcePolicyInsertCall), [*list*](api::ResourcePolicyListCall), [*patch*](api::ResourcePolicyPatchCall), [*set iam policy*](api::ResourcePolicySetIamPolicyCall) and [*test iam permissions*](api::ResourcePolicyTestIamPermissionCall)
 //! * [routers](api::Router)
-//!  * [*aggregated list*](api::RouterAggregatedListCall), [*delete*](api::RouterDeleteCall), [*get*](api::RouterGetCall), [*get nat ip info*](api::RouterGetNatIpInfoCall), [*get nat mapping info*](api::RouterGetNatMappingInfoCall), [*get router status*](api::RouterGetRouterStatuCall), [*insert*](api::RouterInsertCall), [*list*](api::RouterListCall), [*patch*](api::RouterPatchCall), [*preview*](api::RouterPreviewCall) and [*update*](api::RouterUpdateCall)
+//!  * [*aggregated list*](api::RouterAggregatedListCall), [*delete*](api::RouterDeleteCall), [*get*](api::RouterGetCall), [*get nat ip info*](api::RouterGetNatIpInfoCall), [*get nat mapping info*](api::RouterGetNatMappingInfoCall), [*get router status*](api::RouterGetRouterStatusCall), [*insert*](api::RouterInsertCall), [*list*](api::RouterListCall), [*patch*](api::RouterPatchCall), [*preview*](api::RouterPreviewCall) and [*update*](api::RouterUpdateCall)
 //! * [routes](api::Route)
 //!  * [*delete*](api::RouteDeleteCall), [*get*](api::RouteGetCall), [*insert*](api::RouteInsertCall) and [*list*](api::RouteListCall)
 //! * [security policies](api::SecurityPolicy)
@@ -175,6 +179,10 @@
 //!  * [*aggregated list*](api::SslCertificateAggregatedListCall), [*delete*](api::SslCertificateDeleteCall), [*get*](api::SslCertificateGetCall), [*insert*](api::SslCertificateInsertCall) and [*list*](api::SslCertificateListCall)
 //! * [ssl policies](api::SslPolicy)
 //!  * [*aggregated list*](api::SslPolicyAggregatedListCall), [*delete*](api::SslPolicyDeleteCall), [*get*](api::SslPolicyGetCall), [*insert*](api::SslPolicyInsertCall), [*list*](api::SslPolicyListCall), [*list available features*](api::SslPolicyListAvailableFeatureCall) and [*patch*](api::SslPolicyPatchCall)
+//! * [storage pool types](api::StoragePoolType)
+//!  * [*aggregated list*](api::StoragePoolTypeAggregatedListCall), [*get*](api::StoragePoolTypeGetCall) and [*list*](api::StoragePoolTypeListCall)
+//! * [storage pools](api::StoragePool)
+//!  * [*aggregated list*](api::StoragePoolAggregatedListCall), [*delete*](api::StoragePoolDeleteCall), [*get*](api::StoragePoolGetCall), [*get iam policy*](api::StoragePoolGetIamPolicyCall), [*insert*](api::StoragePoolInsertCall), [*list*](api::StoragePoolListCall), [*list disks*](api::StoragePoolListDiskCall), [*set iam policy*](api::StoragePoolSetIamPolicyCall), [*test iam permissions*](api::StoragePoolTestIamPermissionCall) and [*update*](api::StoragePoolUpdateCall)
 //! * [subnetworks](api::Subnetwork)
 //!  * [*aggregated list*](api::SubnetworkAggregatedListCall), [*delete*](api::SubnetworkDeleteCall), [*expand ip cidr range*](api::SubnetworkExpandIpCidrRangeCall), [*get*](api::SubnetworkGetCall), [*get iam policy*](api::SubnetworkGetIamPolicyCall), [*insert*](api::SubnetworkInsertCall), [*list*](api::SubnetworkListCall), [*list usable*](api::SubnetworkListUsableCall), [*patch*](api::SubnetworkPatchCall), [*set iam policy*](api::SubnetworkSetIamPolicyCall), [*set private ip google access*](api::SubnetworkSetPrivateIpGoogleAccesCall) and [*test iam permissions*](api::SubnetworkTestIamPermissionCall)
 //! * [target grpc proxies](api::TargetGrpcProxy)
@@ -196,7 +204,7 @@
 //! * [url maps](api::UrlMap)
 //!  * [*aggregated list*](api::UrlMapAggregatedListCall), [*delete*](api::UrlMapDeleteCall), [*get*](api::UrlMapGetCall), [*insert*](api::UrlMapInsertCall), [*invalidate cache*](api::UrlMapInvalidateCacheCall), [*list*](api::UrlMapListCall), [*patch*](api::UrlMapPatchCall), [*update*](api::UrlMapUpdateCall) and [*validate*](api::UrlMapValidateCall)
 //! * [vpn gateways](api::VpnGateway)
-//!  * [*aggregated list*](api::VpnGatewayAggregatedListCall), [*delete*](api::VpnGatewayDeleteCall), [*get*](api::VpnGatewayGetCall), [*get status*](api::VpnGatewayGetStatuCall), [*insert*](api::VpnGatewayInsertCall), [*list*](api::VpnGatewayListCall), [*set labels*](api::VpnGatewaySetLabelCall) and [*test iam permissions*](api::VpnGatewayTestIamPermissionCall)
+//!  * [*aggregated list*](api::VpnGatewayAggregatedListCall), [*delete*](api::VpnGatewayDeleteCall), [*get*](api::VpnGatewayGetCall), [*get status*](api::VpnGatewayGetStatusCall), [*insert*](api::VpnGatewayInsertCall), [*list*](api::VpnGatewayListCall), [*set labels*](api::VpnGatewaySetLabelCall) and [*test iam permissions*](api::VpnGatewayTestIamPermissionCall)
 //! * [vpn tunnels](api::VpnTunnel)
 //!  * [*aggregated list*](api::VpnTunnelAggregatedListCall), [*delete*](api::VpnTunnelDeleteCall), [*get*](api::VpnTunnelGetCall), [*insert*](api::VpnTunnelInsertCall), [*list*](api::VpnTunnelListCall) and [*set labels*](api::VpnTunnelSetLabelCall)
 //! * zone operations
@@ -330,6 +338,9 @@
 //! let r = hub.images().insert(...).doit().await
 //! let r = hub.images().patch(...).doit().await
 //! let r = hub.images().set_labels(...).doit().await
+//! let r = hub.instance_group_manager_resize_requests().cancel(...).doit().await
+//! let r = hub.instance_group_manager_resize_requests().delete(...).doit().await
+//! let r = hub.instance_group_manager_resize_requests().insert(...).doit().await
 //! let r = hub.instance_group_managers().abandon_instances(...).doit().await
 //! let r = hub.instance_group_managers().apply_updates_to_instances(...).doit().await
 //! let r = hub.instance_group_managers().create_instances(...).doit().await
@@ -349,6 +360,7 @@
 //! let r = hub.instance_groups().insert(...).doit().await
 //! let r = hub.instance_groups().remove_instances(...).doit().await
 //! let r = hub.instance_groups().set_named_ports(...).doit().await
+//! let r = hub.instance_settings().patch(...).doit().await
 //! let r = hub.instance_templates().delete(...).doit().await
 //! let r = hub.instance_templates().insert(...).doit().await
 //! let r = hub.instances().add_access_config(...).doit().await
@@ -584,6 +596,9 @@
 //! let r = hub.ssl_policies().delete(...).doit().await
 //! let r = hub.ssl_policies().insert(...).doit().await
 //! let r = hub.ssl_policies().patch(...).doit().await
+//! let r = hub.storage_pools().delete(...).doit().await
+//! let r = hub.storage_pools().insert(...).doit().await
+//! let r = hub.storage_pools().update(...).doit().await
 //! let r = hub.subnetworks().delete(...).doit().await
 //! let r = hub.subnetworks().expand_ip_cidr_range(...).doit().await
 //! let r = hub.subnetworks().insert(...).doit().await
@@ -644,8 +659,8 @@
 //! let r = hub.zone_operations().wait(...).doit().await
 //! ```
 //! 
-//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities` 
-//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be 
+//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities`
+//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be
 //! specified right away (i.e. `(...)`), whereas all optional ones can be [build up][builder-pattern] as desired.
 //! The `doit()` method performs the actual communication with the server and returns the respective result.
 //! 
@@ -670,23 +685,24 @@
 //! extern crate google_compute1 as compute1;
 //! use compute1::api::Disk;
 //! use compute1::{Result, Error};
+//! use compute1::api::enums::*;
 //! # async fn dox() {
 //! use std::default::Default;
 //! use compute1::{Compute, oauth2, hyper, hyper_rustls, chrono, FieldMask};
 //! 
-//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and 
+//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and
 //! // `client_secret`, among other things.
 //! let secret: oauth2::ApplicationSecret = Default::default();
-//! // Instantiate the authenticator. It will choose a suitable authentication flow for you, 
+//! // Instantiate the authenticator. It will choose a suitable authentication flow for you,
 //! // unless you replace  `None` with the desired Flow.
-//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about 
+//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about
 //! // what's going on. You probably want to bring in your own `TokenStorage` to persist tokens and
 //! // retrieve them from storage.
 //! let auth = oauth2::InstalledFlowAuthenticator::builder(
 //!         secret,
 //!         oauth2::InstalledFlowReturnMethod::HTTPRedirect,
 //!     ).build().await.unwrap();
-//! let mut hub = Compute::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().https_or_http().enable_http1().build()), auth);
+//! let mut hub = Compute::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().unwrap().https_or_http().enable_http1().build()), auth);
 //! // As the method needs a request, you would usually fill it with the desired information
 //! // into the respective structure. Some of the parts shown here might not be applicable !
 //! // Values shown here are possibly random and not representative !
@@ -696,7 +712,7 @@
 //! // execute the final call using `doit()`.
 //! // Values shown here are possibly random and not representative !
 //! let result = hub.disks().update(req, "project", "zone", "disk")
-//!              .update_mask(&Default::default())
+//!              .update_mask(FieldMask::new::<&str>(&[]))
 //!              .request_id("amet.")
 //!              .add_paths("takimata")
 //!              .doit().await;
@@ -723,10 +739,10 @@
 //! ## Handling Errors
 //! 
 //! All errors produced by the system are provided either as [Result](client::Result) enumeration as return value of
-//! the doit() methods, or handed as possibly intermediate results to either the 
+//! the doit() methods, or handed as possibly intermediate results to either the
 //! [Hub Delegate](client::Delegate), or the [Authenticator Delegate](https://docs.rs/yup-oauth2/*/yup_oauth2/trait.AuthenticatorDelegate.html).
 //! 
-//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This 
+//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This
 //! makes the system potentially resilient to all kinds of errors.
 //! 
 //! ## Uploads and Downloads
@@ -736,25 +752,25 @@
 //! You can see it as meta-data for the actual media. To trigger a media download, you will have to set up the builder by making
 //! this call: `.param("alt", "media")`.
 //! 
-//! Methods supporting uploads can do so using up to 2 different protocols: 
-//! *simple* and *resumable*. The distinctiveness of each is represented by customized 
+//! Methods supporting uploads can do so using up to 2 different protocols:
+//! *simple* and *resumable*. The distinctiveness of each is represented by customized
 //! `doit(...)` methods, which are then named `upload(...)` and `upload_resumable(...)` respectively.
 //! 
 //! ## Customization and Callbacks
 //! 
-//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the 
-//! [Method Builder](client::CallBuilder) before making the final `doit()` call. 
-//! Respective methods will be called to provide progress information, as well as determine whether the system should 
+//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the
+//! [Method Builder](client::CallBuilder) before making the final `doit()` call.
+//! Respective methods will be called to provide progress information, as well as determine whether the system should
 //! retry on failure.
 //! 
 //! The [delegate trait](client::Delegate) is default-implemented, allowing you to customize it with minimal effort.
 //! 
 //! ## Optional Parts in Server-Requests
 //! 
-//! All structures provided by this library are made to be [encodable](client::RequestValue) and 
-//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses 
+//! All structures provided by this library are made to be [encodable](client::RequestValue) and
+//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses
 //! are valid.
-//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to 
+//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to
 //! the server to indicate either the set parts of the request or the desired parts in the response.
 //! 
 //! ## Builder Arguments
