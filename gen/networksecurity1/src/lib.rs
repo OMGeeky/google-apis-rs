@@ -2,19 +2,19 @@
 // This file was generated automatically from 'src/generator/templates/api/lib.rs.mako'
 // DO NOT EDIT !
 
-//! This documentation was generated from *NetworkSecurity* crate version *5.0.4+20240221*, where *20240221* is the exact revision of the *networksecurity:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.4*.
+//! This documentation was generated from *NetworkSecurity* crate version *5.0.5+20240313*, where *20240313* is the exact revision of the *networksecurity:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.5*.
 //! 
 //! Everything else about the *NetworkSecurity* *v1* API can be found at the
 //! [official documentation site](https://cloud.google.com/networking).
 //! The original source code is [on github](https://github.com/Byron/google-apis-rs/tree/main/gen/networksecurity1).
 //! # Features
 //! 
-//! Handle the following *Resources* with ease from the central [hub](NetworkSecurity) ... 
+//! Handle the following *Resources* with ease from the central [hub](NetworkSecurity) ...
 //! 
 //! * organizations
-//!  * [*locations address groups add items*](api::OrganizationLocationAddressGroupAddItemCall), [*locations address groups clone items*](api::OrganizationLocationAddressGroupCloneItemCall), [*locations address groups create*](api::OrganizationLocationAddressGroupCreateCall), [*locations address groups delete*](api::OrganizationLocationAddressGroupDeleteCall), [*locations address groups get*](api::OrganizationLocationAddressGroupGetCall), [*locations address groups list*](api::OrganizationLocationAddressGroupListCall), [*locations address groups list references*](api::OrganizationLocationAddressGroupListReferenceCall), [*locations address groups patch*](api::OrganizationLocationAddressGroupPatchCall), [*locations address groups remove items*](api::OrganizationLocationAddressGroupRemoveItemCall), [*locations operations cancel*](api::OrganizationLocationOperationCancelCall), [*locations operations delete*](api::OrganizationLocationOperationDeleteCall), [*locations operations get*](api::OrganizationLocationOperationGetCall) and [*locations operations list*](api::OrganizationLocationOperationListCall)
+//!  * [*locations address groups add items*](api::OrganizationLocationAddressGroupAddItemCall), [*locations address groups clone items*](api::OrganizationLocationAddressGroupCloneItemCall), [*locations address groups create*](api::OrganizationLocationAddressGroupCreateCall), [*locations address groups delete*](api::OrganizationLocationAddressGroupDeleteCall), [*locations address groups get*](api::OrganizationLocationAddressGroupGetCall), [*locations address groups list*](api::OrganizationLocationAddressGroupListCall), [*locations address groups list references*](api::OrganizationLocationAddressGroupListReferenceCall), [*locations address groups patch*](api::OrganizationLocationAddressGroupPatchCall), [*locations address groups remove items*](api::OrganizationLocationAddressGroupRemoveItemCall), [*locations firewall endpoints create*](api::OrganizationLocationFirewallEndpointCreateCall), [*locations firewall endpoints delete*](api::OrganizationLocationFirewallEndpointDeleteCall), [*locations firewall endpoints get*](api::OrganizationLocationFirewallEndpointGetCall), [*locations firewall endpoints list*](api::OrganizationLocationFirewallEndpointListCall), [*locations firewall endpoints patch*](api::OrganizationLocationFirewallEndpointPatchCall), [*locations operations cancel*](api::OrganizationLocationOperationCancelCall), [*locations operations delete*](api::OrganizationLocationOperationDeleteCall), [*locations operations get*](api::OrganizationLocationOperationGetCall), [*locations operations list*](api::OrganizationLocationOperationListCall), [*locations security profile groups create*](api::OrganizationLocationSecurityProfileGroupCreateCall), [*locations security profile groups delete*](api::OrganizationLocationSecurityProfileGroupDeleteCall), [*locations security profile groups get*](api::OrganizationLocationSecurityProfileGroupGetCall), [*locations security profile groups list*](api::OrganizationLocationSecurityProfileGroupListCall), [*locations security profile groups patch*](api::OrganizationLocationSecurityProfileGroupPatchCall), [*locations security profiles create*](api::OrganizationLocationSecurityProfileCreateCall), [*locations security profiles delete*](api::OrganizationLocationSecurityProfileDeleteCall), [*locations security profiles get*](api::OrganizationLocationSecurityProfileGetCall), [*locations security profiles list*](api::OrganizationLocationSecurityProfileListCall) and [*locations security profiles patch*](api::OrganizationLocationSecurityProfilePatchCall)
 //! * projects
-//!  * [*locations address groups add items*](api::ProjectLocationAddressGroupAddItemCall), [*locations address groups clone items*](api::ProjectLocationAddressGroupCloneItemCall), [*locations address groups create*](api::ProjectLocationAddressGroupCreateCall), [*locations address groups delete*](api::ProjectLocationAddressGroupDeleteCall), [*locations address groups get*](api::ProjectLocationAddressGroupGetCall), [*locations address groups get iam policy*](api::ProjectLocationAddressGroupGetIamPolicyCall), [*locations address groups list*](api::ProjectLocationAddressGroupListCall), [*locations address groups list references*](api::ProjectLocationAddressGroupListReferenceCall), [*locations address groups patch*](api::ProjectLocationAddressGroupPatchCall), [*locations address groups remove items*](api::ProjectLocationAddressGroupRemoveItemCall), [*locations address groups set iam policy*](api::ProjectLocationAddressGroupSetIamPolicyCall), [*locations address groups test iam permissions*](api::ProjectLocationAddressGroupTestIamPermissionCall), [*locations authorization policies create*](api::ProjectLocationAuthorizationPolicyCreateCall), [*locations authorization policies delete*](api::ProjectLocationAuthorizationPolicyDeleteCall), [*locations authorization policies get*](api::ProjectLocationAuthorizationPolicyGetCall), [*locations authorization policies get iam policy*](api::ProjectLocationAuthorizationPolicyGetIamPolicyCall), [*locations authorization policies list*](api::ProjectLocationAuthorizationPolicyListCall), [*locations authorization policies patch*](api::ProjectLocationAuthorizationPolicyPatchCall), [*locations authorization policies set iam policy*](api::ProjectLocationAuthorizationPolicySetIamPolicyCall), [*locations authorization policies test iam permissions*](api::ProjectLocationAuthorizationPolicyTestIamPermissionCall), [*locations client tls policies create*](api::ProjectLocationClientTlsPolicyCreateCall), [*locations client tls policies delete*](api::ProjectLocationClientTlsPolicyDeleteCall), [*locations client tls policies get*](api::ProjectLocationClientTlsPolicyGetCall), [*locations client tls policies get iam policy*](api::ProjectLocationClientTlsPolicyGetIamPolicyCall), [*locations client tls policies list*](api::ProjectLocationClientTlsPolicyListCall), [*locations client tls policies patch*](api::ProjectLocationClientTlsPolicyPatchCall), [*locations client tls policies set iam policy*](api::ProjectLocationClientTlsPolicySetIamPolicyCall), [*locations client tls policies test iam permissions*](api::ProjectLocationClientTlsPolicyTestIamPermissionCall), [*locations gateway security policies create*](api::ProjectLocationGatewaySecurityPolicyCreateCall), [*locations gateway security policies delete*](api::ProjectLocationGatewaySecurityPolicyDeleteCall), [*locations gateway security policies get*](api::ProjectLocationGatewaySecurityPolicyGetCall), [*locations gateway security policies list*](api::ProjectLocationGatewaySecurityPolicyListCall), [*locations gateway security policies patch*](api::ProjectLocationGatewaySecurityPolicyPatchCall), [*locations gateway security policies rules create*](api::ProjectLocationGatewaySecurityPolicyRuleCreateCall), [*locations gateway security policies rules delete*](api::ProjectLocationGatewaySecurityPolicyRuleDeleteCall), [*locations gateway security policies rules get*](api::ProjectLocationGatewaySecurityPolicyRuleGetCall), [*locations gateway security policies rules list*](api::ProjectLocationGatewaySecurityPolicyRuleListCall), [*locations gateway security policies rules patch*](api::ProjectLocationGatewaySecurityPolicyRulePatchCall), [*locations get*](api::ProjectLocationGetCall), [*locations list*](api::ProjectLocationListCall), [*locations operations cancel*](api::ProjectLocationOperationCancelCall), [*locations operations delete*](api::ProjectLocationOperationDeleteCall), [*locations operations get*](api::ProjectLocationOperationGetCall), [*locations operations list*](api::ProjectLocationOperationListCall), [*locations server tls policies create*](api::ProjectLocationServerTlsPolicyCreateCall), [*locations server tls policies delete*](api::ProjectLocationServerTlsPolicyDeleteCall), [*locations server tls policies get*](api::ProjectLocationServerTlsPolicyGetCall), [*locations server tls policies get iam policy*](api::ProjectLocationServerTlsPolicyGetIamPolicyCall), [*locations server tls policies list*](api::ProjectLocationServerTlsPolicyListCall), [*locations server tls policies patch*](api::ProjectLocationServerTlsPolicyPatchCall), [*locations server tls policies set iam policy*](api::ProjectLocationServerTlsPolicySetIamPolicyCall), [*locations server tls policies test iam permissions*](api::ProjectLocationServerTlsPolicyTestIamPermissionCall), [*locations tls inspection policies create*](api::ProjectLocationTlsInspectionPolicyCreateCall), [*locations tls inspection policies delete*](api::ProjectLocationTlsInspectionPolicyDeleteCall), [*locations tls inspection policies get*](api::ProjectLocationTlsInspectionPolicyGetCall), [*locations tls inspection policies list*](api::ProjectLocationTlsInspectionPolicyListCall), [*locations tls inspection policies patch*](api::ProjectLocationTlsInspectionPolicyPatchCall), [*locations url lists create*](api::ProjectLocationUrlListCreateCall), [*locations url lists delete*](api::ProjectLocationUrlListDeleteCall), [*locations url lists get*](api::ProjectLocationUrlListGetCall), [*locations url lists list*](api::ProjectLocationUrlListListCall) and [*locations url lists patch*](api::ProjectLocationUrlListPatchCall)
+//!  * [*locations address groups add items*](api::ProjectLocationAddressGroupAddItemCall), [*locations address groups clone items*](api::ProjectLocationAddressGroupCloneItemCall), [*locations address groups create*](api::ProjectLocationAddressGroupCreateCall), [*locations address groups delete*](api::ProjectLocationAddressGroupDeleteCall), [*locations address groups get*](api::ProjectLocationAddressGroupGetCall), [*locations address groups get iam policy*](api::ProjectLocationAddressGroupGetIamPolicyCall), [*locations address groups list*](api::ProjectLocationAddressGroupListCall), [*locations address groups list references*](api::ProjectLocationAddressGroupListReferenceCall), [*locations address groups patch*](api::ProjectLocationAddressGroupPatchCall), [*locations address groups remove items*](api::ProjectLocationAddressGroupRemoveItemCall), [*locations address groups set iam policy*](api::ProjectLocationAddressGroupSetIamPolicyCall), [*locations address groups test iam permissions*](api::ProjectLocationAddressGroupTestIamPermissionCall), [*locations authorization policies create*](api::ProjectLocationAuthorizationPolicyCreateCall), [*locations authorization policies delete*](api::ProjectLocationAuthorizationPolicyDeleteCall), [*locations authorization policies get*](api::ProjectLocationAuthorizationPolicyGetCall), [*locations authorization policies get iam policy*](api::ProjectLocationAuthorizationPolicyGetIamPolicyCall), [*locations authorization policies list*](api::ProjectLocationAuthorizationPolicyListCall), [*locations authorization policies patch*](api::ProjectLocationAuthorizationPolicyPatchCall), [*locations authorization policies set iam policy*](api::ProjectLocationAuthorizationPolicySetIamPolicyCall), [*locations authorization policies test iam permissions*](api::ProjectLocationAuthorizationPolicyTestIamPermissionCall), [*locations client tls policies create*](api::ProjectLocationClientTlsPolicyCreateCall), [*locations client tls policies delete*](api::ProjectLocationClientTlsPolicyDeleteCall), [*locations client tls policies get*](api::ProjectLocationClientTlsPolicyGetCall), [*locations client tls policies get iam policy*](api::ProjectLocationClientTlsPolicyGetIamPolicyCall), [*locations client tls policies list*](api::ProjectLocationClientTlsPolicyListCall), [*locations client tls policies patch*](api::ProjectLocationClientTlsPolicyPatchCall), [*locations client tls policies set iam policy*](api::ProjectLocationClientTlsPolicySetIamPolicyCall), [*locations client tls policies test iam permissions*](api::ProjectLocationClientTlsPolicyTestIamPermissionCall), [*locations firewall endpoint associations create*](api::ProjectLocationFirewallEndpointAssociationCreateCall), [*locations firewall endpoint associations delete*](api::ProjectLocationFirewallEndpointAssociationDeleteCall), [*locations firewall endpoint associations get*](api::ProjectLocationFirewallEndpointAssociationGetCall), [*locations firewall endpoint associations list*](api::ProjectLocationFirewallEndpointAssociationListCall), [*locations firewall endpoint associations patch*](api::ProjectLocationFirewallEndpointAssociationPatchCall), [*locations gateway security policies create*](api::ProjectLocationGatewaySecurityPolicyCreateCall), [*locations gateway security policies delete*](api::ProjectLocationGatewaySecurityPolicyDeleteCall), [*locations gateway security policies get*](api::ProjectLocationGatewaySecurityPolicyGetCall), [*locations gateway security policies list*](api::ProjectLocationGatewaySecurityPolicyListCall), [*locations gateway security policies patch*](api::ProjectLocationGatewaySecurityPolicyPatchCall), [*locations gateway security policies rules create*](api::ProjectLocationGatewaySecurityPolicyRuleCreateCall), [*locations gateway security policies rules delete*](api::ProjectLocationGatewaySecurityPolicyRuleDeleteCall), [*locations gateway security policies rules get*](api::ProjectLocationGatewaySecurityPolicyRuleGetCall), [*locations gateway security policies rules list*](api::ProjectLocationGatewaySecurityPolicyRuleListCall), [*locations gateway security policies rules patch*](api::ProjectLocationGatewaySecurityPolicyRulePatchCall), [*locations get*](api::ProjectLocationGetCall), [*locations list*](api::ProjectLocationListCall), [*locations operations cancel*](api::ProjectLocationOperationCancelCall), [*locations operations delete*](api::ProjectLocationOperationDeleteCall), [*locations operations get*](api::ProjectLocationOperationGetCall), [*locations operations list*](api::ProjectLocationOperationListCall), [*locations server tls policies create*](api::ProjectLocationServerTlsPolicyCreateCall), [*locations server tls policies delete*](api::ProjectLocationServerTlsPolicyDeleteCall), [*locations server tls policies get*](api::ProjectLocationServerTlsPolicyGetCall), [*locations server tls policies get iam policy*](api::ProjectLocationServerTlsPolicyGetIamPolicyCall), [*locations server tls policies list*](api::ProjectLocationServerTlsPolicyListCall), [*locations server tls policies patch*](api::ProjectLocationServerTlsPolicyPatchCall), [*locations server tls policies set iam policy*](api::ProjectLocationServerTlsPolicySetIamPolicyCall), [*locations server tls policies test iam permissions*](api::ProjectLocationServerTlsPolicyTestIamPermissionCall), [*locations tls inspection policies create*](api::ProjectLocationTlsInspectionPolicyCreateCall), [*locations tls inspection policies delete*](api::ProjectLocationTlsInspectionPolicyDeleteCall), [*locations tls inspection policies get*](api::ProjectLocationTlsInspectionPolicyGetCall), [*locations tls inspection policies list*](api::ProjectLocationTlsInspectionPolicyListCall), [*locations tls inspection policies patch*](api::ProjectLocationTlsInspectionPolicyPatchCall), [*locations url lists create*](api::ProjectLocationUrlListCreateCall), [*locations url lists delete*](api::ProjectLocationUrlListDeleteCall), [*locations url lists get*](api::ProjectLocationUrlListGetCall), [*locations url lists list*](api::ProjectLocationUrlListListCall) and [*locations url lists patch*](api::ProjectLocationUrlListPatchCall)
 //! 
 //! 
 //! 
@@ -55,7 +55,16 @@
 //! let r = hub.organizations().locations_address_groups_delete(...).doit().await
 //! let r = hub.organizations().locations_address_groups_patch(...).doit().await
 //! let r = hub.organizations().locations_address_groups_remove_items(...).doit().await
+//! let r = hub.organizations().locations_firewall_endpoints_create(...).doit().await
+//! let r = hub.organizations().locations_firewall_endpoints_delete(...).doit().await
+//! let r = hub.organizations().locations_firewall_endpoints_patch(...).doit().await
 //! let r = hub.organizations().locations_operations_get(...).doit().await
+//! let r = hub.organizations().locations_security_profile_groups_create(...).doit().await
+//! let r = hub.organizations().locations_security_profile_groups_delete(...).doit().await
+//! let r = hub.organizations().locations_security_profile_groups_patch(...).doit().await
+//! let r = hub.organizations().locations_security_profiles_create(...).doit().await
+//! let r = hub.organizations().locations_security_profiles_delete(...).doit().await
+//! let r = hub.organizations().locations_security_profiles_patch(...).doit().await
 //! let r = hub.projects().locations_address_groups_add_items(...).doit().await
 //! let r = hub.projects().locations_address_groups_clone_items(...).doit().await
 //! let r = hub.projects().locations_address_groups_create(...).doit().await
@@ -68,6 +77,9 @@
 //! let r = hub.projects().locations_client_tls_policies_create(...).doit().await
 //! let r = hub.projects().locations_client_tls_policies_delete(...).doit().await
 //! let r = hub.projects().locations_client_tls_policies_patch(...).doit().await
+//! let r = hub.projects().locations_firewall_endpoint_associations_create(...).doit().await
+//! let r = hub.projects().locations_firewall_endpoint_associations_delete(...).doit().await
+//! let r = hub.projects().locations_firewall_endpoint_associations_patch(...).doit().await
 //! let r = hub.projects().locations_gateway_security_policies_rules_create(...).doit().await
 //! let r = hub.projects().locations_gateway_security_policies_rules_delete(...).doit().await
 //! let r = hub.projects().locations_gateway_security_policies_rules_patch(...).doit().await
@@ -86,8 +98,8 @@
 //! let r = hub.projects().locations_url_lists_patch(...).doit().await
 //! ```
 //! 
-//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities` 
-//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be 
+//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities`
+//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be
 //! specified right away (i.e. `(...)`), whereas all optional ones can be [build up][builder-pattern] as desired.
 //! The `doit()` method performs the actual communication with the server and returns the respective result.
 //! 
@@ -112,23 +124,24 @@
 //! extern crate google_networksecurity1 as networksecurity1;
 //! use networksecurity1::api::AddressGroup;
 //! use networksecurity1::{Result, Error};
+//! use networksecurity1::api::enums::*;
 //! # async fn dox() {
 //! use std::default::Default;
 //! use networksecurity1::{NetworkSecurity, oauth2, hyper, hyper_rustls, chrono, FieldMask};
 //! 
-//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and 
+//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and
 //! // `client_secret`, among other things.
 //! let secret: oauth2::ApplicationSecret = Default::default();
-//! // Instantiate the authenticator. It will choose a suitable authentication flow for you, 
+//! // Instantiate the authenticator. It will choose a suitable authentication flow for you,
 //! // unless you replace  `None` with the desired Flow.
-//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about 
+//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about
 //! // what's going on. You probably want to bring in your own `TokenStorage` to persist tokens and
 //! // retrieve them from storage.
 //! let auth = oauth2::InstalledFlowAuthenticator::builder(
 //!         secret,
 //!         oauth2::InstalledFlowReturnMethod::HTTPRedirect,
 //!     ).build().await.unwrap();
-//! let mut hub = NetworkSecurity::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().https_or_http().enable_http1().build()), auth);
+//! let mut hub = NetworkSecurity::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().unwrap().https_or_http().enable_http1().build()), auth);
 //! // As the method needs a request, you would usually fill it with the desired information
 //! // into the respective structure. Some of the parts shown here might not be applicable !
 //! // Values shown here are possibly random and not representative !
@@ -164,10 +177,10 @@
 //! ## Handling Errors
 //! 
 //! All errors produced by the system are provided either as [Result](client::Result) enumeration as return value of
-//! the doit() methods, or handed as possibly intermediate results to either the 
+//! the doit() methods, or handed as possibly intermediate results to either the
 //! [Hub Delegate](client::Delegate), or the [Authenticator Delegate](https://docs.rs/yup-oauth2/*/yup_oauth2/trait.AuthenticatorDelegate.html).
 //! 
-//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This 
+//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This
 //! makes the system potentially resilient to all kinds of errors.
 //! 
 //! ## Uploads and Downloads
@@ -177,25 +190,25 @@
 //! You can see it as meta-data for the actual media. To trigger a media download, you will have to set up the builder by making
 //! this call: `.param("alt", "media")`.
 //! 
-//! Methods supporting uploads can do so using up to 2 different protocols: 
-//! *simple* and *resumable*. The distinctiveness of each is represented by customized 
+//! Methods supporting uploads can do so using up to 2 different protocols:
+//! *simple* and *resumable*. The distinctiveness of each is represented by customized
 //! `doit(...)` methods, which are then named `upload(...)` and `upload_resumable(...)` respectively.
 //! 
 //! ## Customization and Callbacks
 //! 
-//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the 
-//! [Method Builder](client::CallBuilder) before making the final `doit()` call. 
-//! Respective methods will be called to provide progress information, as well as determine whether the system should 
+//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the
+//! [Method Builder](client::CallBuilder) before making the final `doit()` call.
+//! Respective methods will be called to provide progress information, as well as determine whether the system should
 //! retry on failure.
 //! 
 //! The [delegate trait](client::Delegate) is default-implemented, allowing you to customize it with minimal effort.
 //! 
 //! ## Optional Parts in Server-Requests
 //! 
-//! All structures provided by this library are made to be [encodable](client::RequestValue) and 
-//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses 
+//! All structures provided by this library are made to be [encodable](client::RequestValue) and
+//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses
 //! are valid.
-//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to 
+//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to
 //! the server to indicate either the set parts of the request or the desired parts in the response.
 //! 
 //! ## Builder Arguments

@@ -2,17 +2,17 @@
 // This file was generated automatically from 'src/generator/templates/api/lib.rs.mako'
 // DO NOT EDIT !
 
-//! This documentation was generated from *Connectors* crate version *5.0.4+20240221*, where *20240221* is the exact revision of the *connectors:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.4*.
+//! This documentation was generated from *Connectors* crate version *5.0.5+20240415*, where *20240415* is the exact revision of the *connectors:v1* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.5*.
 //! 
 //! Everything else about the *Connectors* *v1* API can be found at the
 //! [official documentation site](https://cloud.google.com/apigee/docs/api-platform/connectors/about-connectors).
 //! The original source code is [on github](https://github.com/Byron/google-apis-rs/tree/main/gen/connectors1).
 //! # Features
 //! 
-//! Handle the following *Resources* with ease from the central [hub](Connectors) ... 
+//! Handle the following *Resources* with ease from the central [hub](Connectors) ...
 //! 
 //! * projects
-//!  * [*locations connections connection schema metadata get action*](api::ProjectLocationConnectionConnectionSchemaMetadataGetActionCall), [*locations connections connection schema metadata get entity type*](api::ProjectLocationConnectionConnectionSchemaMetadataGetEntityTypeCall), [*locations connections connection schema metadata list actions*](api::ProjectLocationConnectionConnectionSchemaMetadataListActionCall), [*locations connections connection schema metadata list entity types*](api::ProjectLocationConnectionConnectionSchemaMetadataListEntityTypeCall), [*locations connections connection schema metadata refresh*](api::ProjectLocationConnectionConnectionSchemaMetadataRefreshCall), [*locations connections create*](api::ProjectLocationConnectionCreateCall), [*locations connections delete*](api::ProjectLocationConnectionDeleteCall), [*locations connections event subscriptions create*](api::ProjectLocationConnectionEventSubscriptionCreateCall), [*locations connections event subscriptions delete*](api::ProjectLocationConnectionEventSubscriptionDeleteCall), [*locations connections event subscriptions get*](api::ProjectLocationConnectionEventSubscriptionGetCall), [*locations connections event subscriptions list*](api::ProjectLocationConnectionEventSubscriptionListCall), [*locations connections event subscriptions patch*](api::ProjectLocationConnectionEventSubscriptionPatchCall), [*locations connections event subscriptions retry*](api::ProjectLocationConnectionEventSubscriptionRetryCall), [*locations connections get*](api::ProjectLocationConnectionGetCall), [*locations connections get connection schema metadata*](api::ProjectLocationConnectionGetConnectionSchemaMetadataCall), [*locations connections get iam policy*](api::ProjectLocationConnectionGetIamPolicyCall), [*locations connections list*](api::ProjectLocationConnectionListCall), [*locations connections listen event*](api::ProjectLocationConnectionListenEventCall), [*locations connections patch*](api::ProjectLocationConnectionPatchCall), [*locations connections repair eventing*](api::ProjectLocationConnectionRepairEventingCall), [*locations connections runtime action schemas list*](api::ProjectLocationConnectionRuntimeActionSchemaListCall), [*locations connections runtime entity schemas list*](api::ProjectLocationConnectionRuntimeEntitySchemaListCall), [*locations connections set iam policy*](api::ProjectLocationConnectionSetIamPolicyCall), [*locations connections test iam permissions*](api::ProjectLocationConnectionTestIamPermissionCall), [*locations endpoint attachments create*](api::ProjectLocationEndpointAttachmentCreateCall), [*locations endpoint attachments delete*](api::ProjectLocationEndpointAttachmentDeleteCall), [*locations endpoint attachments get*](api::ProjectLocationEndpointAttachmentGetCall), [*locations endpoint attachments list*](api::ProjectLocationEndpointAttachmentListCall), [*locations endpoint attachments patch*](api::ProjectLocationEndpointAttachmentPatchCall), [*locations get*](api::ProjectLocationGetCall), [*locations get regional settings*](api::ProjectLocationGetRegionalSettingCall), [*locations get runtime config*](api::ProjectLocationGetRuntimeConfigCall), [*locations global custom connectors create*](api::ProjectLocationGlobalCustomConnectorCreateCall), [*locations global custom connectors custom connector versions create*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionCreateCall), [*locations global custom connectors custom connector versions delete*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionDeleteCall), [*locations global custom connectors custom connector versions get*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionGetCall), [*locations global custom connectors custom connector versions list*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionListCall), [*locations global custom connectors custom connector versions patch*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionPatchCall), [*locations global custom connectors delete*](api::ProjectLocationGlobalCustomConnectorDeleteCall), [*locations global custom connectors get*](api::ProjectLocationGlobalCustomConnectorGetCall), [*locations global custom connectors list*](api::ProjectLocationGlobalCustomConnectorListCall), [*locations global custom connectors patch*](api::ProjectLocationGlobalCustomConnectorPatchCall), [*locations global get settings*](api::ProjectLocationGlobalGetSettingCall), [*locations global managed zones create*](api::ProjectLocationGlobalManagedZoneCreateCall), [*locations global managed zones delete*](api::ProjectLocationGlobalManagedZoneDeleteCall), [*locations global managed zones get*](api::ProjectLocationGlobalManagedZoneGetCall), [*locations global managed zones list*](api::ProjectLocationGlobalManagedZoneListCall), [*locations global managed zones patch*](api::ProjectLocationGlobalManagedZonePatchCall), [*locations global update settings*](api::ProjectLocationGlobalUpdateSettingCall), [*locations list*](api::ProjectLocationListCall), [*locations operations cancel*](api::ProjectLocationOperationCancelCall), [*locations operations delete*](api::ProjectLocationOperationDeleteCall), [*locations operations get*](api::ProjectLocationOperationGetCall), [*locations operations list*](api::ProjectLocationOperationListCall), [*locations providers connectors get*](api::ProjectLocationProviderConnectorGetCall), [*locations providers connectors list*](api::ProjectLocationProviderConnectorListCall), [*locations providers connectors versions eventtypes get*](api::ProjectLocationProviderConnectorVersionEventtypeGetCall), [*locations providers connectors versions eventtypes list*](api::ProjectLocationProviderConnectorVersionEventtypeListCall), [*locations providers connectors versions get*](api::ProjectLocationProviderConnectorVersionGetCall), [*locations providers connectors versions list*](api::ProjectLocationProviderConnectorVersionListCall), [*locations providers get*](api::ProjectLocationProviderGetCall), [*locations providers get iam policy*](api::ProjectLocationProviderGetIamPolicyCall), [*locations providers list*](api::ProjectLocationProviderListCall), [*locations providers set iam policy*](api::ProjectLocationProviderSetIamPolicyCall), [*locations providers test iam permissions*](api::ProjectLocationProviderTestIamPermissionCall) and [*locations update regional settings*](api::ProjectLocationUpdateRegionalSettingCall)
+//!  * [*locations connections connection schema metadata get action*](api::ProjectLocationConnectionConnectionSchemaMetadataGetActionCall), [*locations connections connection schema metadata get entity type*](api::ProjectLocationConnectionConnectionSchemaMetadataGetEntityTypeCall), [*locations connections connection schema metadata list actions*](api::ProjectLocationConnectionConnectionSchemaMetadataListActionCall), [*locations connections connection schema metadata list entity types*](api::ProjectLocationConnectionConnectionSchemaMetadataListEntityTypeCall), [*locations connections connection schema metadata refresh*](api::ProjectLocationConnectionConnectionSchemaMetadataRefreshCall), [*locations connections create*](api::ProjectLocationConnectionCreateCall), [*locations connections delete*](api::ProjectLocationConnectionDeleteCall), [*locations connections event subscriptions create*](api::ProjectLocationConnectionEventSubscriptionCreateCall), [*locations connections event subscriptions delete*](api::ProjectLocationConnectionEventSubscriptionDeleteCall), [*locations connections event subscriptions get*](api::ProjectLocationConnectionEventSubscriptionGetCall), [*locations connections event subscriptions list*](api::ProjectLocationConnectionEventSubscriptionListCall), [*locations connections event subscriptions patch*](api::ProjectLocationConnectionEventSubscriptionPatchCall), [*locations connections event subscriptions retry*](api::ProjectLocationConnectionEventSubscriptionRetryCall), [*locations connections get*](api::ProjectLocationConnectionGetCall), [*locations connections get connection schema metadata*](api::ProjectLocationConnectionGetConnectionSchemaMetadataCall), [*locations connections get iam policy*](api::ProjectLocationConnectionGetIamPolicyCall), [*locations connections list*](api::ProjectLocationConnectionListCall), [*locations connections listen event*](api::ProjectLocationConnectionListenEventCall), [*locations connections patch*](api::ProjectLocationConnectionPatchCall), [*locations connections repair eventing*](api::ProjectLocationConnectionRepairEventingCall), [*locations connections runtime action schemas list*](api::ProjectLocationConnectionRuntimeActionSchemaListCall), [*locations connections runtime entity schemas list*](api::ProjectLocationConnectionRuntimeEntitySchemaListCall), [*locations connections search*](api::ProjectLocationConnectionSearchCall), [*locations connections set iam policy*](api::ProjectLocationConnectionSetIamPolicyCall), [*locations connections test iam permissions*](api::ProjectLocationConnectionTestIamPermissionCall), [*locations custom connectors custom connector versions delete*](api::ProjectLocationCustomConnectorCustomConnectorVersionDeleteCall), [*locations custom connectors validate custom connector spec*](api::ProjectLocationCustomConnectorValidateCustomConnectorSpecCall), [*locations endpoint attachments create*](api::ProjectLocationEndpointAttachmentCreateCall), [*locations endpoint attachments delete*](api::ProjectLocationEndpointAttachmentDeleteCall), [*locations endpoint attachments get*](api::ProjectLocationEndpointAttachmentGetCall), [*locations endpoint attachments list*](api::ProjectLocationEndpointAttachmentListCall), [*locations endpoint attachments patch*](api::ProjectLocationEndpointAttachmentPatchCall), [*locations get*](api::ProjectLocationGetCall), [*locations get regional settings*](api::ProjectLocationGetRegionalSettingCall), [*locations get runtime config*](api::ProjectLocationGetRuntimeConfigCall), [*locations global custom connectors create*](api::ProjectLocationGlobalCustomConnectorCreateCall), [*locations global custom connectors custom connector versions create*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionCreateCall), [*locations global custom connectors custom connector versions get*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionGetCall), [*locations global custom connectors custom connector versions list*](api::ProjectLocationGlobalCustomConnectorCustomConnectorVersionListCall), [*locations global custom connectors delete*](api::ProjectLocationGlobalCustomConnectorDeleteCall), [*locations global custom connectors get*](api::ProjectLocationGlobalCustomConnectorGetCall), [*locations global custom connectors list*](api::ProjectLocationGlobalCustomConnectorListCall), [*locations global custom connectors patch*](api::ProjectLocationGlobalCustomConnectorPatchCall), [*locations global get settings*](api::ProjectLocationGlobalGetSettingCall), [*locations global managed zones create*](api::ProjectLocationGlobalManagedZoneCreateCall), [*locations global managed zones delete*](api::ProjectLocationGlobalManagedZoneDeleteCall), [*locations global managed zones get*](api::ProjectLocationGlobalManagedZoneGetCall), [*locations global managed zones list*](api::ProjectLocationGlobalManagedZoneListCall), [*locations global managed zones patch*](api::ProjectLocationGlobalManagedZonePatchCall), [*locations global update settings*](api::ProjectLocationGlobalUpdateSettingCall), [*locations list*](api::ProjectLocationListCall), [*locations operations cancel*](api::ProjectLocationOperationCancelCall), [*locations operations delete*](api::ProjectLocationOperationDeleteCall), [*locations operations get*](api::ProjectLocationOperationGetCall), [*locations operations list*](api::ProjectLocationOperationListCall), [*locations providers connectors get*](api::ProjectLocationProviderConnectorGetCall), [*locations providers connectors list*](api::ProjectLocationProviderConnectorListCall), [*locations providers connectors versions eventtypes get*](api::ProjectLocationProviderConnectorVersionEventtypeGetCall), [*locations providers connectors versions eventtypes list*](api::ProjectLocationProviderConnectorVersionEventtypeListCall), [*locations providers connectors versions get*](api::ProjectLocationProviderConnectorVersionGetCall), [*locations providers connectors versions list*](api::ProjectLocationProviderConnectorVersionListCall), [*locations providers get*](api::ProjectLocationProviderGetCall), [*locations providers get iam policy*](api::ProjectLocationProviderGetIamPolicyCall), [*locations providers list*](api::ProjectLocationProviderListCall), [*locations providers set iam policy*](api::ProjectLocationProviderSetIamPolicyCall), [*locations providers test iam permissions*](api::ProjectLocationProviderTestIamPermissionCall) and [*locations update regional settings*](api::ProjectLocationUpdateRegionalSettingCall)
 //! 
 //! 
 //! 
@@ -58,12 +58,11 @@
 //! let r = hub.projects().locations_connections_delete(...).doit().await
 //! let r = hub.projects().locations_connections_patch(...).doit().await
 //! let r = hub.projects().locations_connections_repair_eventing(...).doit().await
+//! let r = hub.projects().locations_custom_connectors_custom_connector_versions_delete(...).doit().await
 //! let r = hub.projects().locations_endpoint_attachments_create(...).doit().await
 //! let r = hub.projects().locations_endpoint_attachments_delete(...).doit().await
 //! let r = hub.projects().locations_endpoint_attachments_patch(...).doit().await
 //! let r = hub.projects().locations_global_custom_connectors_custom_connector_versions_create(...).doit().await
-//! let r = hub.projects().locations_global_custom_connectors_custom_connector_versions_delete(...).doit().await
-//! let r = hub.projects().locations_global_custom_connectors_custom_connector_versions_patch(...).doit().await
 //! let r = hub.projects().locations_global_custom_connectors_create(...).doit().await
 //! let r = hub.projects().locations_global_custom_connectors_delete(...).doit().await
 //! let r = hub.projects().locations_global_custom_connectors_patch(...).doit().await
@@ -75,8 +74,8 @@
 //! let r = hub.projects().locations_update_regional_settings(...).doit().await
 //! ```
 //! 
-//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities` 
-//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be 
+//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities`
+//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be
 //! specified right away (i.e. `(...)`), whereas all optional ones can be [build up][builder-pattern] as desired.
 //! The `doit()` method performs the actual communication with the server and returns the respective result.
 //! 
@@ -101,23 +100,24 @@
 //! extern crate google_connectors1 as connectors1;
 //! use connectors1::api::EventSubscription;
 //! use connectors1::{Result, Error};
+//! use connectors1::api::enums::*;
 //! # async fn dox() {
 //! use std::default::Default;
 //! use connectors1::{Connectors, oauth2, hyper, hyper_rustls, chrono, FieldMask};
 //! 
-//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and 
+//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and
 //! // `client_secret`, among other things.
 //! let secret: oauth2::ApplicationSecret = Default::default();
-//! // Instantiate the authenticator. It will choose a suitable authentication flow for you, 
+//! // Instantiate the authenticator. It will choose a suitable authentication flow for you,
 //! // unless you replace  `None` with the desired Flow.
-//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about 
+//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about
 //! // what's going on. You probably want to bring in your own `TokenStorage` to persist tokens and
 //! // retrieve them from storage.
 //! let auth = oauth2::InstalledFlowAuthenticator::builder(
 //!         secret,
 //!         oauth2::InstalledFlowReturnMethod::HTTPRedirect,
 //!     ).build().await.unwrap();
-//! let mut hub = Connectors::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().https_or_http().enable_http1().build()), auth);
+//! let mut hub = Connectors::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().unwrap().https_or_http().enable_http1().build()), auth);
 //! // As the method needs a request, you would usually fill it with the desired information
 //! // into the respective structure. Some of the parts shown here might not be applicable !
 //! // Values shown here are possibly random and not representative !
@@ -152,10 +152,10 @@
 //! ## Handling Errors
 //! 
 //! All errors produced by the system are provided either as [Result](client::Result) enumeration as return value of
-//! the doit() methods, or handed as possibly intermediate results to either the 
+//! the doit() methods, or handed as possibly intermediate results to either the
 //! [Hub Delegate](client::Delegate), or the [Authenticator Delegate](https://docs.rs/yup-oauth2/*/yup_oauth2/trait.AuthenticatorDelegate.html).
 //! 
-//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This 
+//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This
 //! makes the system potentially resilient to all kinds of errors.
 //! 
 //! ## Uploads and Downloads
@@ -165,25 +165,25 @@
 //! You can see it as meta-data for the actual media. To trigger a media download, you will have to set up the builder by making
 //! this call: `.param("alt", "media")`.
 //! 
-//! Methods supporting uploads can do so using up to 2 different protocols: 
-//! *simple* and *resumable*. The distinctiveness of each is represented by customized 
+//! Methods supporting uploads can do so using up to 2 different protocols:
+//! *simple* and *resumable*. The distinctiveness of each is represented by customized
 //! `doit(...)` methods, which are then named `upload(...)` and `upload_resumable(...)` respectively.
 //! 
 //! ## Customization and Callbacks
 //! 
-//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the 
-//! [Method Builder](client::CallBuilder) before making the final `doit()` call. 
-//! Respective methods will be called to provide progress information, as well as determine whether the system should 
+//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the
+//! [Method Builder](client::CallBuilder) before making the final `doit()` call.
+//! Respective methods will be called to provide progress information, as well as determine whether the system should
 //! retry on failure.
 //! 
 //! The [delegate trait](client::Delegate) is default-implemented, allowing you to customize it with minimal effort.
 //! 
 //! ## Optional Parts in Server-Requests
 //! 
-//! All structures provided by this library are made to be [encodable](client::RequestValue) and 
-//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses 
+//! All structures provided by this library are made to be [encodable](client::RequestValue) and
+//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses
 //! are valid.
-//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to 
+//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to
 //! the server to indicate either the set parts of the request or the desired parts in the response.
 //! 
 //! ## Builder Arguments
