@@ -152,11 +152,11 @@ serde_json = "^1.0"
 ## A complete example
 
 ```Rust
-use youtube3::api::enums::*;
 extern crate hyper;
 extern crate hyper_rustls;
 extern crate google_youtube3 as youtube3;
 use youtube3::{Result, Error};
+use youtube3::api::enums::*;
 use std::default::Default;
 use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
 

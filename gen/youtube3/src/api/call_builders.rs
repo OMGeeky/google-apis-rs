@@ -9,11 +9,11 @@ use super::*;
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::AbuseReport;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -306,10 +306,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -658,10 +658,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -930,10 +930,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -1231,11 +1231,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Caption;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -1692,10 +1692,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -2024,11 +2024,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Caption;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -2483,11 +2483,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::ChannelBannerResource;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -2907,10 +2907,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -3179,11 +3179,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::ChannelSection;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -3529,10 +3529,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -3875,11 +3875,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::ChannelSection;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -4196,10 +4196,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -4593,11 +4593,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Channel;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -4902,11 +4902,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::CommentThread;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -5199,10 +5199,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -5583,10 +5583,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -5828,11 +5828,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Comment;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -6125,10 +6125,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -6450,10 +6450,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -6701,10 +6701,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -6976,11 +6976,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Comment;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -7273,10 +7273,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -7546,10 +7546,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -7835,10 +7835,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -8152,10 +8152,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -8438,11 +8438,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveBroadcast;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -8794,11 +8794,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Cuepoint;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -9161,10 +9161,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -9545,10 +9545,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -9878,11 +9878,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveBroadcast;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -10217,10 +10217,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -10462,11 +10462,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveChatBan;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -10759,10 +10759,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -11004,11 +11004,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveChatMessage;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -11316,10 +11316,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -11643,10 +11643,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -11888,11 +11888,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveChatModerator;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -12200,10 +12200,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -12503,10 +12503,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -12789,11 +12789,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveStream;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -13147,10 +13147,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -13506,11 +13506,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::LiveStream;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -13845,10 +13845,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -14178,10 +14178,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -14445,10 +14445,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -14703,11 +14703,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::PlaylistImage;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -15139,10 +15139,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -15459,11 +15459,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::PlaylistImage;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -15883,10 +15883,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -16140,11 +16140,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::PlaylistItem;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -16449,10 +16449,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -16785,11 +16785,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::PlaylistItem;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -17094,10 +17094,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -17351,11 +17351,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Playlist;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -17672,10 +17672,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -18033,11 +18033,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Playlist;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -18342,10 +18342,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -18966,10 +18966,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -19211,11 +19211,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Subscription;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -19508,10 +19508,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -19904,10 +19904,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -20202,11 +20202,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::TestItem;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -20509,10 +20509,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -20756,11 +20756,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::ThirdPartyLink;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -21042,10 +21042,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -21308,11 +21308,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::ThirdPartyLink;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -21587,10 +21587,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -21980,10 +21980,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -22258,10 +22258,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -22557,10 +22557,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -22814,10 +22814,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -23087,11 +23087,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Video;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -23558,10 +23558,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -23965,10 +23965,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -24221,11 +24221,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::VideoAbuseReport;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -24496,11 +24496,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::Video;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -24805,11 +24805,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::InvideoBranding;
+/// use youtube3::api::enums::*;
 /// use std::fs;
 /// # async fn dox() {
 /// # use std::default::Default;
@@ -25205,10 +25205,10 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
@@ -25462,11 +25462,11 @@ where
 /// Instantiate a resource method builder
 ///
 /// ```test_harness,no_run
-/// use youtube3::api::enums::*;
 /// # extern crate hyper;
 /// # extern crate hyper_rustls;
 /// # extern crate google_youtube3 as youtube3;
 /// use youtube3::api::CommentThread;
+/// use youtube3::api::enums::*;
 /// # async fn dox() {
 /// # use std::default::Default;
 /// # use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};

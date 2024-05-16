@@ -152,11 +152,11 @@
 //! ## A complete example
 //! 
 //! ```test_harness,no_run
-//! use youtube3::api::enums::*;
 //! extern crate hyper;
 //! extern crate hyper_rustls;
 //! extern crate google_youtube3 as youtube3;
 //! use youtube3::{Result, Error};
+//! use youtube3::api::enums::*;
 //! # async fn dox() {
 //! use std::default::Default;
 //! use youtube3::{YouTube, oauth2, hyper, hyper_rustls, chrono, FieldMask};
