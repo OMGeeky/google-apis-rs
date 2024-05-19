@@ -4,7 +4,7 @@
 [package]
 
 name = "google-datacatalog1-cli"
-version = "5.0.4+20240222"
+version = "5.0.5+20240322"
 authors = ["Sebastian Thiel <byronimo@gmail.com>"]
 description = "A complete library to interact with Data Catalog (protocol v1)"
 repository = "https://github.com/Byron/google-apis-rs/tree/main/gen/datacatalog1-cli"
@@ -21,7 +21,7 @@ path = "src/main.rs"
 
 [dependencies]
 anyhow = "^ 1.0"
-hyper-rustls = "0.24.0"
+hyper-rustls = "0.25.0"
 mime = "^ 0.3.0"
 serde = { version = "^ 1.0", features = ["derive"] }
 serde_json = "^ 1.0"
@@ -38,5 +38,5 @@ tower-service = "^0.3.1"
 
 [dependencies.google-datacatalog1]
 path = "../datacatalog1"
-version = "5.0.4+20240222"
+version = "5.0.5+20240322"
 

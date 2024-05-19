@@ -4,7 +4,7 @@
 [package]
 
 name = "google-analyticsdata1_beta-cli"
-version = "5.0.4+20240304"
+version = "5.0.5+20240417"
 authors = ["Sebastian Thiel <byronimo@gmail.com>"]
 description = "A complete library to interact with AnalyticsData (protocol v1beta)"
 repository = "https://github.com/Byron/google-apis-rs/tree/main/gen/analyticsdata1_beta-cli"
@@ -21,7 +21,7 @@ path = "src/main.rs"
 
 [dependencies]
 anyhow = "^ 1.0"
-hyper-rustls = "0.24.0"
+hyper-rustls = "0.25.0"
 mime = "^ 0.3.0"
 serde = { version = "^ 1.0", features = ["derive"] }
 serde_json = "^ 1.0"
@@ -38,5 +38,5 @@ tower-service = "^0.3.1"
 
 [dependencies.google-analyticsdata1_beta]
 path = "../analyticsdata1_beta"
-version = "5.0.4+20240304"
+version = "5.0.5+20240417"
 

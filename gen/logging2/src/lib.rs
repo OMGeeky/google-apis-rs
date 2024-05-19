@@ -2,14 +2,14 @@
 // This file was generated automatically from 'src/generator/templates/api/lib.rs.mako'
 // DO NOT EDIT !
 
-//! This documentation was generated from *Logging* crate version *5.0.4+20240223*, where *20240223* is the exact revision of the *logging:v2* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.4*.
+//! This documentation was generated from *Logging* crate version *5.0.5+20240412*, where *20240412* is the exact revision of the *logging:v2* schema built by the [mako](http://www.makotemplates.org/) code generator *v5.0.5*.
 //! 
 //! Everything else about the *Logging* *v2* API can be found at the
 //! [official documentation site](https://cloud.google.com/logging/docs/).
 //! The original source code is [on github](https://github.com/Byron/google-apis-rs/tree/main/gen/logging2).
 //! # Features
 //! 
-//! Handle the following *Resources* with ease from the central [hub](Logging) ... 
+//! Handle the following *Resources* with ease from the central [hub](Logging) ...
 //! 
 //! * billing accounts
 //!  * [*exclusions create*](api::BillingAccountExclusionCreateCall), [*exclusions delete*](api::BillingAccountExclusionDeleteCall), [*exclusions get*](api::BillingAccountExclusionGetCall), [*exclusions list*](api::BillingAccountExclusionListCall), [*exclusions patch*](api::BillingAccountExclusionPatchCall), [*get cmek settings*](api::BillingAccountGetCmekSettingCall), [*get settings*](api::BillingAccountGetSettingCall), [*locations buckets create*](api::BillingAccountLocationBucketCreateCall), [*locations buckets create async*](api::BillingAccountLocationBucketCreateAsyncCall), [*locations buckets delete*](api::BillingAccountLocationBucketDeleteCall), [*locations buckets get*](api::BillingAccountLocationBucketGetCall), [*locations buckets links create*](api::BillingAccountLocationBucketLinkCreateCall), [*locations buckets links delete*](api::BillingAccountLocationBucketLinkDeleteCall), [*locations buckets links get*](api::BillingAccountLocationBucketLinkGetCall), [*locations buckets links list*](api::BillingAccountLocationBucketLinkListCall), [*locations buckets list*](api::BillingAccountLocationBucketListCall), [*locations buckets patch*](api::BillingAccountLocationBucketPatchCall), [*locations buckets undelete*](api::BillingAccountLocationBucketUndeleteCall), [*locations buckets update async*](api::BillingAccountLocationBucketUpdateAsyncCall), [*locations buckets views create*](api::BillingAccountLocationBucketViewCreateCall), [*locations buckets views delete*](api::BillingAccountLocationBucketViewDeleteCall), [*locations buckets views get*](api::BillingAccountLocationBucketViewGetCall), [*locations buckets views list*](api::BillingAccountLocationBucketViewListCall), [*locations buckets views logs list*](api::BillingAccountLocationBucketViewLogListCall), [*locations buckets views patch*](api::BillingAccountLocationBucketViewPatchCall), [*locations get*](api::BillingAccountLocationGetCall), [*locations list*](api::BillingAccountLocationListCall), [*locations operations cancel*](api::BillingAccountLocationOperationCancelCall), [*locations operations get*](api::BillingAccountLocationOperationGetCall), [*locations operations list*](api::BillingAccountLocationOperationListCall), [*locations recent queries list*](api::BillingAccountLocationRecentQueryListCall), [*locations saved queries create*](api::BillingAccountLocationSavedQueryCreateCall), [*locations saved queries delete*](api::BillingAccountLocationSavedQueryDeleteCall), [*locations saved queries list*](api::BillingAccountLocationSavedQueryListCall), [*logs delete*](api::BillingAccountLogDeleteCall), [*logs list*](api::BillingAccountLogListCall), [*sinks create*](api::BillingAccountSinkCreateCall), [*sinks delete*](api::BillingAccountSinkDeleteCall), [*sinks get*](api::BillingAccountSinkGetCall), [*sinks list*](api::BillingAccountSinkListCall), [*sinks patch*](api::BillingAccountSinkPatchCall) and [*sinks update*](api::BillingAccountSinkUpdateCall)
@@ -113,8 +113,8 @@
 //! let r = hub.sinks().delete(...).doit().await
 //! ```
 //! 
-//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities` 
-//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be 
+//! The `resource()` and `activity(...)` calls create [builders][builder-pattern]. The second one dealing with `Activities`
+//! supports various methods to configure the impending operation (not shown here). It is made such that all required arguments have to be
 //! specified right away (i.e. `(...)`), whereas all optional ones can be [build up][builder-pattern] as desired.
 //! The `doit()` method performs the actual communication with the server and returns the respective result.
 //! 
@@ -139,23 +139,24 @@
 //! extern crate google_logging2 as logging2;
 //! use logging2::api::UndeleteBucketRequest;
 //! use logging2::{Result, Error};
+//! use logging2::api::enums::*;
 //! # async fn dox() {
 //! use std::default::Default;
 //! use logging2::{Logging, oauth2, hyper, hyper_rustls, chrono, FieldMask};
 //! 
-//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and 
+//! // Get an ApplicationSecret instance by some means. It contains the `client_id` and
 //! // `client_secret`, among other things.
 //! let secret: oauth2::ApplicationSecret = Default::default();
-//! // Instantiate the authenticator. It will choose a suitable authentication flow for you, 
+//! // Instantiate the authenticator. It will choose a suitable authentication flow for you,
 //! // unless you replace  `None` with the desired Flow.
-//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about 
+//! // Provide your own `AuthenticatorDelegate` to adjust the way it operates and get feedback about
 //! // what's going on. You probably want to bring in your own `TokenStorage` to persist tokens and
 //! // retrieve them from storage.
 //! let auth = oauth2::InstalledFlowAuthenticator::builder(
 //!         secret,
 //!         oauth2::InstalledFlowReturnMethod::HTTPRedirect,
 //!     ).build().await.unwrap();
-//! let mut hub = Logging::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().https_or_http().enable_http1().build()), auth);
+//! let mut hub = Logging::new(hyper::Client::builder().build(hyper_rustls::HttpsConnectorBuilder::new().with_native_roots().unwrap().https_or_http().enable_http1().build()), auth);
 //! // As the method needs a request, you would usually fill it with the desired information
 //! // into the respective structure. Some of the parts shown here might not be applicable !
 //! // Values shown here are possibly random and not representative !
@@ -189,10 +190,10 @@
 //! ## Handling Errors
 //! 
 //! All errors produced by the system are provided either as [Result](client::Result) enumeration as return value of
-//! the doit() methods, or handed as possibly intermediate results to either the 
+//! the doit() methods, or handed as possibly intermediate results to either the
 //! [Hub Delegate](client::Delegate), or the [Authenticator Delegate](https://docs.rs/yup-oauth2/*/yup_oauth2/trait.AuthenticatorDelegate.html).
 //! 
-//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This 
+//! When delegates handle errors or intermediate values, they may have a chance to instruct the system to retry. This
 //! makes the system potentially resilient to all kinds of errors.
 //! 
 //! ## Uploads and Downloads
@@ -202,25 +203,25 @@
 //! You can see it as meta-data for the actual media. To trigger a media download, you will have to set up the builder by making
 //! this call: `.param("alt", "media")`.
 //! 
-//! Methods supporting uploads can do so using up to 2 different protocols: 
-//! *simple* and *resumable*. The distinctiveness of each is represented by customized 
+//! Methods supporting uploads can do so using up to 2 different protocols:
+//! *simple* and *resumable*. The distinctiveness of each is represented by customized
 //! `doit(...)` methods, which are then named `upload(...)` and `upload_resumable(...)` respectively.
 //! 
 //! ## Customization and Callbacks
 //! 
-//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the 
-//! [Method Builder](client::CallBuilder) before making the final `doit()` call. 
-//! Respective methods will be called to provide progress information, as well as determine whether the system should 
+//! You may alter the way an `doit()` method is called by providing a [delegate](client::Delegate) to the
+//! [Method Builder](client::CallBuilder) before making the final `doit()` call.
+//! Respective methods will be called to provide progress information, as well as determine whether the system should
 //! retry on failure.
 //! 
 //! The [delegate trait](client::Delegate) is default-implemented, allowing you to customize it with minimal effort.
 //! 
 //! ## Optional Parts in Server-Requests
 //! 
-//! All structures provided by this library are made to be [encodable](client::RequestValue) and 
-//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses 
+//! All structures provided by this library are made to be [encodable](client::RequestValue) and
+//! [decodable](client::ResponseResult) via *json*. Optionals are used to indicate that partial requests are responses
 //! are valid.
-//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to 
+//! Most optionals are are considered [Parts](client::Part) which are identifiable by name, which will be sent to
 //! the server to indicate either the set parts of the request or the desired parts in the response.
 //! 
 //! ## Builder Arguments
